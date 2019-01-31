@@ -31,7 +31,7 @@
   }
 
   .button_container span {
-    background: #ffffff;
+    background: #040f8b;
     border: none;
     height: 5px;
     width: 100%;
@@ -87,6 +87,10 @@
     animation-delay: .50s;
   }
 
+  .overlay.open li:nth-of-type(5) {
+    animation-delay: .55s;
+  }
+
   .overlay nav {
     position: relative;
     height: 70%;
@@ -108,8 +112,8 @@
 
   .overlay ul li {
     display: block;
-    height: 25%;
-    height: calc(100% / 4);
+    height: 20%;
+    height: calc(100% / 5);
     min-height: 50px;
     position: relative;
     opacity: 0;
@@ -121,6 +125,13 @@
     color: #FFF;
     text-decoration: none;
     overflow: hidden;
+  }
+
+  .overlay ul li:nth-of-type(5) a {
+    font-size: 1.6rem;
+    display: inline;
+    margin-left: 7px;
+    margin-right: 7px; 
   }
 
   .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
