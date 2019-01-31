@@ -1,0 +1,115 @@
+/*
+ *Author: Anjali;
+ *Theme: Pinkdom ;
+ *Date: 30/01/2019; 
+*/
+
+
+/* Global */
+html, body {
+    font-size: 16px;
+}
+
+body {
+    background: #fee4f9;
+    color: #3b3b3b;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+body a {
+    color: #d511aa;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif;
+    color: #151515;
+
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3.0rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.hero-heading {
+    font-size: 5rem;
+    color: rgba(255, 255, 255, .9);
+    padding: auto;
+}
+
+.hero-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .9);
+    padding: auto;
+}
+/* Global End */
+
+/* Homepage Start */
+.hero {
+    height: 100vh;
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.1)),to(rgba(255,255,255,.1))),url(../images/hero-image1.jpg);
+    background: linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../images/hero-image1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: -moz-linear-gradient(top, rgba(209,41,189,1) 0%, rgba(209,41,189,0.99) 1%, rgba(255,255,255,0.04) 96%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(209,41,189,1) 0%,rgba(209,41,189,0.99) 1%,rgba(255,255,255,0.04) 96%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(209,41,189,1) 0%,rgba(209,41,189,0.99) 1%,rgba(255,255,255,0.04) 96%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d129bd', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.my-auto {
+  position: relative;
+  z-index: 2;
+}  
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+/* Homepage End */
