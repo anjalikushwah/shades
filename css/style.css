@@ -157,8 +157,27 @@ h6 {
 .logo-image {
     width: 200px;
 }
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
 }
+
+.service-icon {
+    background-color: rgba(4, 15, 139,.2);
+    color: #040f8b;
+    height:15rem;
+    width: 15rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 3.25rem;
+    -webkit-box-shadow: 3px 3px 55px 0 rgba(0,0,0,.1);
+    box-shadow: 3px 3px 55px 0 rgba(0,0,0,.1);
+}
+
+.far {
+    position: relative;
+    top: 25%;
+}
+
 /* Homepage End */
