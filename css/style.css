@@ -73,7 +73,7 @@ h6 {
     font-family: 'PT Sans', sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
-    color: rgba(255, 255, 255, .9);
+    color: rgba(255, 255, 255, 1);
     padding: auto;
 }
 
@@ -109,7 +109,6 @@ h6 {
     text-decoration: none;
     outline: none;
 }
-
 /* Global End */
 
 /* Homepage Start */
@@ -254,27 +253,21 @@ h2.callout-home-title {
 }
 /* Homepage End */
 
-
 /* Media Queries Start */
-
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     h2.callout-home-title {font-size: 3.8rem;line-height: 100%;color: #ffffff;}
 }
-
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
 
 }
-
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
 
 }
-
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
 
  }
-
 /* Media Queries Start */
