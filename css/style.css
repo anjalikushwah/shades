@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-    background: #fee4f9;
+    background: #040f8b;
     color: #3b3b3b;
     font-family: 'PT Sans', sans-serif;
     font-size: 1.125rem;
@@ -84,7 +84,7 @@ h6 {
 
 .btn-primary {
     color: #fff;
-    background-color: #040f8b;
+    background-color: rgb(4, 15, 139);
     border-color: #040f8b;
 }
 
@@ -164,15 +164,13 @@ h6 {
 }
 
 .service-icon {
-    background-color: rgba(4, 15, 139,.2);
-    color: #040f8b;
+    background-color: #f9cff0;
+    color: #a70b85;
     height:15rem;
     width: 15rem;
     display: block;
     line-height: 7.5rem;
     font-size: 3.25rem;
-    -webkit-box-shadow: 3px 3px 55px 0 rgba(0,0,0,.1);
-    box-shadow: 3px 3px 55px 0 rgba(0,0,0,.1);
 }
 
 .far {
@@ -180,4 +178,103 @@ h6 {
     top: 25%;
 }
 
+.portfolio-home-right {
+    background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.1)),to(rgba(255,255,255,.1))),url(../images/home-portfolio-right.jpg);
+    background: linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../images/home-portfolio-right.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 33%;
+    height: 866px;
+    position: relative;
+}
+
+.portfolio-home-right::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,224,0.54) 68%, rgba(167,11,133,0.8) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,224,0.54) 68%,rgba(167,11,133,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,224,0.54) 68%,rgba(167,11,133,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cca70b85',GradientType=1 ); /* IE6-9 */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.portfolio-home-right-info {
+    position: absolute;
+    left: 8%;
+    z-index: 1;
+    padding-top: 12%;
+}
+
+.portfolio-home-left {
+    background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.1)),to(rgba(255,255,255,.1))),url(../images/home-portfolio-.jpg);
+    background: linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../images/home-portfolio-left.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 33%;
+    height: 866px;
+    position: relative;
+}
+
+.portfolio-home-left::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: -moz-linear-gradient(left, rgba(167,11,133,0.8) 0%, rgba(0,0,224,0.45) 44%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(167,11,133,0.8) 0%,rgba(0,0,224,0.45) 44%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(167,11,133,0.8) 0%,rgba(0,0,224,0.45) 44%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cca70b85', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.portfolio-home-left-info {
+    position: absolute;
+    right: 8%;
+    z-index: 1;
+    padding-top: 12%;
+    text-align: right;
+}
+
+h2.portfolio-home-title {
+    font-size: 5.8rem;
+    line-height: 100%;
+    color: #ffffff;
+}
+
+.content-section-portfolio-home {
+    padding-top: 0rem;
+    padding-bottom: 7.5rem;
+}
 /* Homepage End */
+
+
+/* Media Queries Start */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    h2.portfolio-home-title {font-size: 3.8rem;line-height: 100%;color: #ffffff;}
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+ }
+
+/* Media Queries Start */
