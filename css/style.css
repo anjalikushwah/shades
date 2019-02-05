@@ -278,13 +278,16 @@ figure.testimonial blockquote {
     text-align: left;
 }
 
-figure.testimonial blockquote:before {
+figure.testimonial blockquote::before {
     font-family: 'FontAwesome';
-    content: "\201C";
+    content: "\f10d";
     position: absolute;
-    font-size: 4rem;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 1.6rem;
     color: #a70b85;
-    top: 35px;
+    top: 25px; 
     left: 20px;
 }
 
