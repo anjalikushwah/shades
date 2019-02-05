@@ -157,7 +157,7 @@ h6 {
 }
 
 .logo-image {
-    width: 200px;
+    width: 12rem;
 }
 
 .content-section {
@@ -304,12 +304,46 @@ figure.testimonial .author h6 span {
 }
 /* Testimonial End */
 
+/* Footer Start */
+.footer-logo {
+    width: 12rem;
+}
 
+.footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu a {
+    color: rgba(255, 255, 255, .5);
+}
+
+.copy-text {
+    color: rgba(255, 255, 255, .3);
+    font-size: .8rem;
+}
+
+.copy-text a {
+    color: rgba(255, 255, 255, .3);
+}
+
+.line {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 2rem;
+}
+
+.right-content {
+    text-align: right;
+}
+/* Footer End */
 
 /* Media Queries Start */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     h2.callout-home-title {font-size: 3.8rem;line-height: 100%;color: #ffffff;}
+    .hero-text {font-size: 1.1rem;}
+    footer {text-align: center;}
+    .right-content {text-align: center;}
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
