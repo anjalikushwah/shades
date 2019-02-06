@@ -341,7 +341,7 @@ figure.testimonial .author h6 span {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     h2.callout-home-title {font-size: 3.8rem;line-height: 100%;color: #ffffff;}
-    .hero-text {font-size: 1.1rem;}
+    .hero-text {font-size: 1.4rem;}
     .hero-heading {font-size: 4rem;}
     footer {text-align: center;}
     .right-content {text-align: center;}
