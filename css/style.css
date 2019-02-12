@@ -121,6 +121,10 @@ h6 {
 .bg-pink {
     background-color: #a70b85;
 }
+
+ul {
+    padding: 0;
+}
 /* Global End */
 
 /* Homepage Start */
@@ -350,6 +354,113 @@ h2.product-title {
 }
 /* Styles End */
 
+/* Style-Detail Start */
+.content-section-store {
+    padding-top: 7.5rem;
+    padding-bottom: 0rem;
+}
+
+.header-inner {
+    height: 40vh;
+    min-height: 20rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.1)),to(rgba(255,255,255,.1))),url(../images/header-inner-image1.jpg);
+    background: linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../images/header-inner-image1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-inner::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: -moz-linear-gradient(top, rgba(173,0,127,1) 0%, rgba(173,0,127,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(173,0,127,1) 0%,rgba(173,0,127,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(173,0,127,1) 0%,rgba(173,0,127,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad007f', endColorstr='#00ad007f',GradientType=0 ); /* IE6-9 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.product-card-detail::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    margin-left: -25%;
+    background: -moz-linear-gradient(left, rgba(167,11,133,0.8) 0%, rgba(0,0,224,0.45) 44%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(167,11,133,0.8) 0%,rgba(0,0,224,0.45) 44%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(167,11,133,0.8) 0%,rgba(0,0,224,0.45) 44%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cca70b85', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.product-detail-img img {
+    width: 100%;
+    height: 866px;
+    margin-left: -25%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.product-card-detail {
+    position: relative;
+}
+
+.product-card-detail-info {
+    position: absolute;
+    right:10%;
+    z-index: 2;
+    top: 5%;
+}
+
+.stores {
+list-style: none;
+}
+
+.stores li {
+    border-bottom: .1rem solid rgba(255, 255, 255, .3);
+    padding: 1rem;
+}
+
+.stores a {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.stores a:hover, a:focus, a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.stores li:hover {
+    background: #a70b85;
+    transition: ease .5s;
+}
+
+.store-logo {
+    width: 5rem;
+    height: 5rem;
+    background: #ffffff;
+    border-radius: .5rem;
+}
+
+.store-logo img {
+    max-width: 4rem;
+    max-height: 4em;
+    margin: 8px;
+}
+
+/* Style-Detail End */
 
 /* Footer Start */
 .footer-logo {
@@ -392,6 +503,8 @@ h2.product-title {
     .hero-heading {font-size: 3.8rem;}
     footer {text-align: center;}
     .right-content {text-align: center;}
+    .product-detail-img img {height: 180px;}
+    
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
