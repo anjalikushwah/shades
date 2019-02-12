@@ -418,7 +418,7 @@ h2.product-title {
 
 .product-card-detail-info {
     position: absolute;
-    right:10%;
+    right:15%;
     z-index: 2;
     top: 5%;
 }
