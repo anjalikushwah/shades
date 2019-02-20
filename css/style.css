@@ -371,11 +371,14 @@ h2.product-title {
     width: 100%;
     padding-top: 8rem;
     padding-bottom: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-product-detail {
     background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.1)),to(rgba(255,255,255,.1))),url(../images/header-inner-image1.jpg);
     background: linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../images/header-inner-image1.jpg);
     background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .header-inner::after {
@@ -466,6 +469,22 @@ list-style: none;
 }
 
 /* Style-Detail End */
+
+/* About Start */
+.hero-about {
+    background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.1)),to(rgba(255,255,255,.1))),url(../images/header-inner-image2.jpg);
+    background: linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../images/header-inner-image2.jpg);
+    background-position: center center;
+}
+/* About End */
+
+/* Contact Start */
+.hero-contact {
+    background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,.1)),to(rgba(255,255,255,.1))),url(../images/header-inner-image3.jpg);
+    background: linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../images/header-inner-image3.jpg);
+    background-position: center center;
+}
+/* Contact End */
 
 /* Footer Start */
 .footer-logo {
