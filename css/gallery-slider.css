@@ -77,7 +77,7 @@ section#slider .slide-controls span.slider-previous {
     height: 50px;
     width: 50px;
     padding: 12px 18px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.4);
     cursor: pointer;
 }
 
@@ -90,7 +90,7 @@ section#slider .slide-controls span.slider-next {
     height: 50px;
     width: 50px;
     padding: 12px 19px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.4);
     cursor: pointer;
 }
 
