@@ -99,8 +99,7 @@ section#slider .slide-controls i {
 }
 
 /*** Media Queries ***/
-	
-@media (max-width: 768px) {
+@media (max-width: 991.98px) { 
     section#slider .scroll-wrapper {
         overflow-x: scroll;
         -webkit-overflow-scrolling: touch;
