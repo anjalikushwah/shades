@@ -79,6 +79,7 @@ section#slider .slide-controls span.slider-previous {
     padding: 12px 18px;
     background: rgba(255, 255, 255, 0.4);
     cursor: pointer;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 section#slider .slide-controls span.slider-next {
@@ -92,6 +93,7 @@ section#slider .slide-controls span.slider-next {
     padding: 12px 19px;
     background: rgba(255, 255, 255, 0.4);
     cursor: pointer;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 section#slider .slide-controls i {
